@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -b 1 | tr -dn | uniq
+cut -c 1 | paste -s -d ''
